@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no" />
+		<meta charset="utf-8" />
+		<meta name="description" content="Nová a lepší verze Mapy.cz" />
+
+		<title>Mapy.cz 2.0</title>
+
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="msapplication-config" content="/browserconfig.xml" />
+		<meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png" />
+		<meta name="apple-itunes-app" content="app-id=411411020" />
+
+		<link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="/favicon/apple-touch-icon-180x180.png" />
+		<link rel="mask-icon" href="/favicon/safari-pinned.svg" color="#29ac07" />
+		<link rel="icon" sizes="196x196" href="/favicon/apple-touch-icon.png" />
+
+		<meta name="theme-color" content="#29ac07" />
+		<link rel="manifest" href="/manifest.webmanifest" />
+
+		<meta name="format-detection" content="telephone=no" />
+
+		<script>
+			if ('serviceWorker' in navigator) {
+				window.addEventListener('load', () => {
+					navigator.serviceWorker.register('/service-worker.js');
+				});
+			}
+		</script>
+	</head>
+	<body>
+		<div id="app"></div>
+		<noscript>
+			<p>No maps without Javascript. Please enable it.</p>
+		</noscript>
+	</body>
+</html>

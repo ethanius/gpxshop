@@ -1,0 +1,383 @@
+{
+	"mapsets": [{
+		"name": "Základní",
+		"id": 1,
+		"seo": "zakladni",
+		"base": "base",
+		"layers": [],
+		"icon": "zakladni",
+		"sources": ["base", "firm", "pubt", "osmp", "traf"],
+		"tip": false,
+		"hidden": false
+	}, {
+		"name": "Turistická",
+		"id": 3,
+		"seo": "turisticka",
+		"base": "turist",
+		"layers": ["trail"],
+		"icon": "turisticka",
+		"sources": ["base", "firm", "pubt", "traf", "osmp"],
+		"tip": false,
+		"hidden": false
+	}, {
+		"name": "Letní",
+		"id": 27,
+		"seo": "letni",
+		"base": "summer",
+		"layers": [],
+		"icon": "letni",
+		"sources": ["base", "firm", "pubt", "traf", "osmp"],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "Zimní",
+		"id": 7,
+		"seo": "zimni",
+		"base": "winter",
+		"layers": [],
+		"icon": "zimni",
+		"sources": ["base", "firm", "pubt", "traf", "osmp"],
+		"tip": false,
+		"hidden": false
+	}, {
+		"name": "Fotografická",
+		"id": 26,
+		"seo": "fotografie",
+		"base": "turist",
+		"layers": ["trail"],
+		"icon": "foto",
+		"sources": [],
+		"tip": false,
+		"hidden": false
+	}, {
+		"name": "Letecká",
+		"id": 2,
+		"seo": "letecka",
+		"base": "ophoto",
+		"layers": ["hybrid-sparse-m"],
+		"icon": "letecka",
+		"sources": ["base", "firm", "pubt", "traf", "osmp"],
+		"tip": false,
+		"hidden": false
+	}, {
+		"name": "Letecká '15",
+		"id": 57,
+		"seo": "letecka-2015",
+		"base": "ophoto1415",
+		"layers": ["hybrid-sparse-m"],
+		"icon": "letecka-old",
+		"sources": [],
+		"tip": false,
+		"hidden": false
+	}, {
+		"name": "Letecká '12",
+		"id": 47,
+		"seo": "letecka-2012",
+		"base": "ophoto1012",
+		"layers": ["hybrid-sparse-m"],
+		"icon": "letecka-old",
+		"sources": [],
+		"tip": false,
+		"hidden": false
+	}, {
+		"name": "Letecká '06",
+		"id": 9,
+		"seo": "letecka-2006",
+		"base": "ophoto0406",
+		"layers": ["hybrid-sparse-m"],
+		"icon": "letecka-old",
+		"sources": [],
+		"tip": false,
+		"hidden": false
+	}, {
+		"name": "Letecká '03",
+		"id": 8,
+		"seo": "letecka-2003",
+		"base": "ophoto0203",
+		"layers": ["hybrid-sparse-m"],
+		"icon": "letecka-old",
+		"sources": [],
+		"tip": false,
+		"hidden": false
+	}, {
+		"name": "Dopravní",
+		"id": 21,
+		"seo": "dopravni",
+		"base": "base-dark",
+		"layers": [],
+		"icon": "dopravni",
+		"sources": ["traf", "di", "base", "firm", "osmp"],
+		"tip": false,
+		"hidden": false
+	}, {
+		"name": "Uzavírky",
+		"id": 67,
+		"seo": "uzavirky",
+		"base": "base-dark",
+		"layers": [],
+		"icon": "",
+		"sources": ["traf", "di", "base", "firm", "osmp"],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "Zeměpisná",
+		"id": 30,
+		"seo": "zemepisna",
+		"base": "geography",
+		"layers": [],
+		"icon": "zemepisna",
+		"sources": ["base"],
+		"tip": false,
+		"hidden": false
+	}, {
+		"name": "Z 19. století",
+		"id": 6,
+		"seo": "19stoleti",
+		"base": "history",
+		"layers": [],
+		"icon": "archivni",
+		"sources": [],
+		"tip": false,
+		"hidden": false
+	}, {
+		"name": "Haptická",
+		"id": 28,
+		"seo": "hapticka",
+		"base": "",
+		"layers": [],
+		"icon": "hapticka",
+		"sources": [],
+		"tip": false,
+		"hidden": false
+	}, {
+		"name": "Poi pro výlety",
+		"id": 42,
+		"seo": "vylety",
+		"base": "base",
+		"layers": [],
+		"icon": "",
+		"sources": ["base", "firm", "traf", "osmp"],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "Redakcni mapa",
+		"id": 51,
+		"seo": "mapari",
+		"base": "base",
+		"layers": [],
+		"icon": "",
+		"sources": ["traf", "di"],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "testovaci",
+		"id": 49,
+		"seo": "testovaci",
+		"base": "turist",
+		"layers": [],
+		"icon": "",
+		"sources": ["base", "firm", "pubt", "traf", "osmp"],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "testik",
+		"id": 37,
+		"seo": "testik",
+		"base": "winter",
+		"layers": [],
+		"icon": "",
+		"sources": ["base"],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "appka-offline",
+		"id": 45,
+		"seo": "appka-offline",
+		"base": "base",
+		"layers": [],
+		"icon": "",
+		"sources": ["base", "firm", "pubt", "traf", "osmp"],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "appka-online",
+		"id": 44,
+		"seo": "appka-online",
+		"base": "base",
+		"layers": [],
+		"icon": "",
+		"sources": ["base", "firm", "pubt", "traf", "osmp"],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "appka-doprava-offline",
+		"id": 63,
+		"seo": "appka-doprava-offline",
+		"base": "base-dark",
+		"layers": [],
+		"icon": "",
+		"sources": ["base", "firm", "pubt", "traf", "osmp"],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "appka-doprava-online",
+		"id": 64,
+		"seo": "appka-doprava-online",
+		"base": "base-dark",
+		"layers": [],
+		"icon": "",
+		"sources": ["base", "firm", "pubt", "traf", "osmp"],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "appka-zima-offline",
+		"id": 61,
+		"seo": "appka-zima-offline",
+		"base": "winter",
+		"layers": [],
+		"icon": "",
+		"sources": ["base", "firm", "pubt", "traf", "osmp"],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "appka-zima-online",
+		"id": 62,
+		"seo": "appka-zima-online",
+		"base": "winter",
+		"layers": [],
+		"icon": "",
+		"sources": ["base", "firm", "pubt", "traf", "osmp"],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "Česko jinak",
+		"id": 48,
+		"seo": "cesko",
+		"base": "base",
+		"layers": ["eegg2016-m"],
+		"icon": "april",
+		"sources": ["base"],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "prazdna turist",
+		"id": 52,
+		"seo": "prazdna-turist",
+		"base": "turist",
+		"layers": ["trail"],
+		"icon": "",
+		"sources": [],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "letecka prazdna",
+		"id": 53,
+		"seo": "letecka-prazdna",
+		"base": "ophoto",
+		"layers": [],
+		"icon": "",
+		"sources": [],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "prazdna",
+		"id": 46,
+		"seo": "prazdna",
+		"base": "base",
+		"layers": [],
+		"icon": "",
+		"sources": [],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "skimapa",
+		"id": 55,
+		"seo": "skimapa",
+		"base": "winter",
+		"layers": [],
+		"icon": "",
+		"sources": ["base"],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "Textová mapa",
+		"id": 56,
+		"seo": "textova",
+		"base": "base",
+		"layers": ["april17-m"],
+		"icon": "april2017",
+		"sources": [],
+		"tip": false,
+		"hidden": false
+	}, {
+		"name": "Zimní prázdná",
+		"id": 54,
+		"seo": "zimni-prazdna",
+		"base": "winter",
+		"layers": [],
+		"icon": "",
+		"sources": [],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "Česko za 100 let",
+		"id": 59,
+		"seo": "ceskoza100",
+		"base": "base",
+		"layers": ["april18"],
+		"icon": "april2018",
+		"sources": ["base"],
+		"tip": false,
+		"hidden": false
+	}, {
+		"name": "Videotipy Stream.cz",
+		"id": 58,
+		"seo": "stream",
+		"base": "turist",
+		"layers": ["trail"],
+		"icon": "",
+		"sources": ["base"],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "Dopravní - zprávy",
+		"id": 65,
+		"seo": "dopravni-zpravy",
+		"base": "base-m-traf-down",
+		"layers": [],
+		"icon": "",
+		"sources": ["traf"],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "MHD s uzavírkami pro Aleše",
+		"id": 66,
+		"seo": "mhd",
+		"base": "base",
+		"layers": [],
+		"icon": "dopravni",
+		"sources": ["base", "firm", "pubt", "osmp", "traf", "di"],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "Skiareály pro Počasí.cz",
+		"id": 69,
+		"seo": "skiarealy",
+		"base": "winter",
+		"layers": [],
+		"icon": "zimni",
+		"sources": ["base", "osmp"],
+		"tip": false,
+		"hidden": true
+	}, {
+		"name": "sreality_pois",
+		"id": 68,
+		"seo": "sreality_pois",
+		"base": "base",
+		"layers": [],
+		"icon": "",
+		"sources": ["base", "firm", "pubt"],
+		"tip": false,
+		"hidden": true
+	}]
+}
