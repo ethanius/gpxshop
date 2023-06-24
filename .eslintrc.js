@@ -151,7 +151,7 @@ module.exports = {
 			after: true,
 			before: true,
 		}],
-		'line-comment-position': ['error', { position: 'above' }],
+		'line-comment-position': 'off',
 		'linebreak-style': ['error', 'unix'],
 		'lines-between-class-members': ['error', 'always'],
 		'max-statements-per-line': ['error', { max: 1 }],
